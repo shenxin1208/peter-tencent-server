@@ -1,0 +1,458 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="gb2312">
+<title>南京仁康医院</title>
+<link type="text/css" rel="stylesheet" href="/css/base.css" />
+<link type="text/css" rel="stylesheet" href="/css/index.css" />
+<script type="text/javascript" src="/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="/js/jquery.SuperSlide.2.1.1.js"></script>
+<script src="/js/videoclick.js"></script>
+
+
+
+</head>
+
+<body>
+
+<div class="pto_width">
+	<div class="pto">
+		<div class="l_pto">
+			<img src="/images/l1.png" alt="" class="img1">
+			<img src="/images/l2.png" alt="" class="img2" onclick="onClickSWT('');return false;">
+			<img src="/images/l3.png" alt="" class="img3">
+			<!--<a href="/tel"><img onclick="noteShow()" target="_self" title="点击免费通话" class="img3" src="/images/l3.png" width="265" height="89" alt=""></a>-->
+		</div>
+	</div>
+</div>
+
+
+<div class="r_banner"> 
+<a href="javascript:void(0)" onclick="onClickSWT('sy-banner-zxzx');return false;">
+	<img src="/images/banner.png"/></a>
+
+<!--<a href="/tel" onclick="noteShow()"></a>
+<a href="javascript:void(0)" onclick="onClickSWT('symyt-yn-yyzj');return false;"></a>-->
+
+</div>
+
+
+
+<div class="content">
+	<div class="t_con">
+		<div class="t_con_left">
+		    <img src="/images/title_01.png" width="258" height="60"/>
+		  
+		  <img src="/images/hospital.png" width="280" height="270"/>
+			<div>
+			<h2>南京仁康医院</h2>
+			<div class="b_line"></div>
+			<p>南京仁康医院是精神疾病为重点科研、诊疗对象的专科研究院，集科研、诊疗、预防保健于一体。其浓厚的科研氛围吸引了一大批国内名医汇聚，倡导优质的服务理念，为前来就诊的患者提供温馨的就诊服务。</p></div>
+		</div>
+		<div class="t_con_right">
+		  <img src="/images/title_02.png" width="204" height="60" class="bt"/>
+	      <div id="slideBox" class="slideBox">
+			<div class="bd">
+				<div class="tempWrap">
+					<ul>
+						<li>
+						   <div class="mrjjlb">
+							 <img src="/images/lb_01.jpg" width="260" height="280" />
+							 <p> 联合分析住院患者情况</p>
+							 <img src="/images/pic_022.jpg" width="260" height="140" />
+							 <p>细心呵护每一位患者</p>
+							 <img src="/images/pic_033.jpg" width="260" height="130" />
+							 <p>医护人员定期培训会</p>
+		                   </div>
+						</li>
+<!--
+						<li class="clone" style="float: left; width: 450px;">
+						   <div class="mrjjlb">
+							 <img src="/images/lb_01.jpg" width="260" height="280" />
+							 <p>不明白的 为您详细解答</p>
+							 <img src="/images/lb_02.jpg" width="260" height="140" />
+							 <p> 共同讨论制定治疗方案</p>
+							 <img src="/images/lb_03.jpg" width="260" height="130" />
+							 <p>张淞主任在看患者检查报告</p>
+		                   </div>
+						</li>
+-->
+						<li class="clone" style="float: left; width: 450px;">
+						   <div class="mrjjlb">
+							 <img src="/images/lb_04.jpg" width="260" height="280" />
+							 <p> 联合会诊分析患者病情</p>
+							 <img src="/images/lb_05.jpg" width="260" height="140" />
+							 <p>护士长亲自给患者输液</p>
+							 <img src="/images/lb_06.jpg" width="260" height="130" />
+							 <p>患者正在接受检查</p>
+		                   </div>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+			<a class="prev" href="javascript:void(0)"></a>
+			<a class="next" href="javascript:void(0)"></a>
+
+		</div>
+	      
+<script>
+			
+	jQuery(".slideBox").slide({
+		mainCell:".bd ul",
+		effect:"leftLoop",
+		autoPlay:true
+	});		
+			
+			
+</script>      
+	    <!--  <div class="mrjjlb">
+		    <img src="/images/pic_01.png" width="260" height="280" />
+		    <p>仁康专注诊疗恢复您的健康</p>
+		    <img src="/images/pic_02.png" width="260" height="140" />
+		    <p>精神分裂多年终康复</p>
+		    <img src="/images/pic_03.png" width="260" height="130" />
+		    <p>1个疗程恢复效果明显期待康复</p>
+		  </div>-->
+		  
+		</div>
+	</div>
+	<div class="z_con">
+		<div class="z_con_left"> 
+		  <img src="/images/bg_01.png" width="156" height="420"/>
+		  <p>病种咨询</p>
+		  <div class="s_line"></div>
+		  <p>直接点击<br>即可在线了解</p>
+		</div>
+		<div class="z_con_a">
+		    <a href="javascript:void(0)" onclick="onClickSWT('sy-bzzx-sm');return false;">
+		    <img src="/images/icon_01.png"/>失眠</a>
+		    <a href="javascript:void(0)" onclick="onClickSWT('sy-bzzx-yy ');return false;">
+		    <img src="/images/icon_02.png"/>抑郁</a>
+		    <a href="javascript:void(0)" onclick="onClickSWT('sy-bzzx-jsfl');return false;">
+		    <img src="/images/icon_03.png"/>精神分裂</a>
+		    <a href="javascript:void(0)" onclick="onClickSWT('sy-bzzx-jl');return false;">
+		    <img src="/images/icon_04.png"/>焦虑</a>
+		    <a href="javascript:void(0)" onclick="onClickSWT('sy-bzzx-qpz');return false;">
+		    <img src="/images/icon_05.png"/>强迫症</a>
+		    <a href="javascript:void(0)" onclick="onClickSWT('sy-bzzx-kjz');return false;">
+		    <img src="/images/icon_06.png"/>恐惧症</a>
+		    <a href="javascript:void(0)" onclick="onClickSWT('sy-bzzx-zkz');return false;">
+		    <img src="/images/icon_07.png"/>躁狂症</a>
+		    <a href="javascript:void(0)" onclick="onClickSWT('sy-bzzx-sjsr');return false;">
+		    <img src="/images/icon_08.png"/>神经衰弱</a>
+		    <a href="javascript:void(0)" onclick="onClickSWT('sy-bzzx-ttty');return false;">
+		    <img src="/images/icon_09.png"/>头痛头晕</a>
+		    <a href="javascript:void(0)" onclick="onClickSWT('sy-bzzx-ttty');return false;">
+		    <img src="/images/icon_10.png"/>心理咨询</a>
+		    <a href="javascript:void(0)" onclick="onClickSWT('sy-bzzx-ddz');return false;">
+		    <img src="/images/icon_11.png"/>精神病</a>
+		    <a href="javascript:void(0)" onclick="onClickSWT('sy-bzzx-cdz');return false;">
+		    <img src="/images/icon_12.png"/>精神障碍</a>
+		    <a href="javascript:void(0)" onclick="onClickSWT('sy-bzzx-zbz');return false;">
+		    <img src="/images/icon_13.png"/>神经内科</a>
+		    <a href="javascript:void(0)" onclick="onClickSWT('sy-bzzx-sjgnz');return false;">
+		    <img src="/images/icon_14.png"/>神经官能症</a>
+		    <a href="javascript:void(0)" onclick="onClickSWT('sy-bzzx-zwsjwl');return false;">
+		    <img src="/images/icon_15.png"/>植物神经紊乱</a>
+		</div>
+		<div class="z_con_right">
+			<div  onclick="onClickSWT('');return false;">
+		    <img src="/images/icon_16.jpg"/>妄想症</div>
+		    <div  onclick="onClickSWT('');return false;">
+		    <img src="/images/icon_17.jpg"/>疑病症</div>
+			<a href="javascript:void(0)" onclick="onClickSWT('sy-bzzx-qtjb');return false;">
+				<img src="/images/bg_03.png" width="158" height="139"/></a>
+			<p>其他疾病</p>
+		</div>
+	</div>
+	<div class="d_con">
+		<div class="d_con_left"> 
+			<img src="/images/bg_02.png" width="157" height="140"/>
+			<p>症状咨询</p>
+		</div>
+		<div class="d_con_right">
+			<a href="javascript:void(0)" onclick="onClickSWT('sy-zzzx-smbz');return false;">睡眠不足</a>
+			<a href="javascript:void(0)" onclick="onClickSWT('sy-zzzx-xhfz');return false;">心慌烦躁</a>
+			<a href="javascript:void(0)" onclick="onClickSWT('sy-zzzx-jzba');return false;">紧张不安</a>
+			<a href="javascript:void(0)" onclick="onClickSWT('sy-zzzx-hthj');return false;">幻听幻觉</a>
+			<a href="javascript:void(0)" onclick="onClickSWT('sy-zzzx-zyhs');return false;">注意涣散</a>
+			<a href="javascript:void(0)" onclick="onClickSWT('sy-zzzx-dmyx');return false;">多梦易醒</a>
+			<a href="javascript:void(0)" onclick="onClickSWT('sy-zzzx-thtt');return false;">头昏头痛</a>
+			<a href="javascript:void(0)" onclick="onClickSWT('sy-zzzx-xjzb');return false;">消极自卑</a>
+			<a href="javascript:void(0)" onclick="onClickSWT('sy-zzzx-qxbj');return false;">情绪不佳</a>
+			<a href="javascript:void(0)" onclick="onClickSWT('sy-zzzx-jljt');return false;">精力减退</a>
+			<a href="javascript:void(0)" onclick="onClickSWT('sy-zzzx-gqza');return false;">感情障碍</a>
+			<a href="javascript:void(0)" onclick="onClickSWT('sy-zzzx-swza');return false;">思维障碍</a>
+		</div>
+	</div>
+	
+	<!----------------------名医阵容-------------------------->
+	<div class="fdoctor">
+	    <img src="/images/title_03.png" width="263" height="55"/>
+	    
+	    <!--<div class="slideTxtBox">
+			<div class="hd new">
+				<ul>
+					<li class="norma1">
+					  <p id="ybr">杨炳如</p>
+					</li>
+					<li class="norma2">
+					  <p id="hrl">杜万君</p>
+					</li>
+					<li class="norma3">
+					  <p id="bsx">张淞</p>
+					</li>
+					<li class="norma4">
+					  <p id="lq">汪 平</p>
+					</li>
+					<li class="norma5">
+					  <p id="ljr">王建勤</p>
+					</li>
+					<li class="norma6">
+					  <p id="fxd">范肖冬</p>
+					  </li>
+					<li class="norma7">
+					  <p id="wjx">王锦霞</p></li>
+					<li class="norma8">
+					  <p id="hch">姚付新</p>
+					</li>
+				</ul>
+			</div>
+			<div class="bd bd1">
+				<ul>
+					<li>
+					  <div class="texta">
+					    <img src="/images/ybrb.png" width="530" height="500"/>
+					    <p><span>杨炳如</span>/主任</p>
+					    <p>50年诊疗经验</p>
+					    <p>原北京天坛医院主任</p>
+					    <p>擅长：失眠、抑郁症、精神分裂、焦虑症、强迫症、躁狂症、心理障碍诊疗等。</p>
+					    <a href="javascript:void(0)" onclick="onClickSWT('sy-myzr-ybr-zxzx ');return false;">在线咨询</a>
+					    <a href="javascript:void(0)" onclick="onClickSWT('sy-myzr-ybr-ljqy');return false;">立即抢约</a>
+					  </div>
+					 </li>
+				</ul>
+				<ul>
+					<li>
+				      <div class="texta">
+					    <img src="/images/hrlb.png" width="530" height="500"/>
+					    <p><span>杜万君 </span>/主任</p>
+					    <p>30年经验</p>
+					    <p>北京安定医院主任</p>
+					    <p>擅长：睡眠障碍、抑郁症、精神分裂、焦虑症等。</p>
+					    <a href="javascript:void(0)" onclick="onClickSWT('sy-myzr-hrl-zxzx ');return false;">在线咨询</a>
+					    <a href="javascript:void(0)" onclick="onClickSWT('sy-myzr-hrl-ljqy');return false;">立即抢约</a>
+					  </div>
+					</li>
+				</ul>
+				<ul>
+					<li>
+				        <div class="texta">
+					    <img src="/images/bsxb.png" width="530" height="500"/>
+					    <p><span>张淞</span>/主任</p>
+					    <p>30年经验</p>
+					    <p>《名医云》特邀 </p>
+					    <p>擅长：失眠、抑郁症、精神分裂等各种精神疑难疾病。</p>
+					    <a href="javascript:void(0)" onclick="onClickSWT('sy-myzr-bsx-zxzx ');return false;">在线咨询</a>
+					    <a href="javascript:void(0)" onclick="onClickSWT('sy-myzr-bsx-ljqy');return false;">立即抢约</a>
+					  </div>
+					</li>
+				</ul>
+				<ul>
+					<li>
+					  <div class="texta">
+					    <img src="/images/lqb.png" width="530" height="500"/>
+					    <p><span>汪平</span>/主任</p>
+					    <p>30年经验</p>
+					    <p>北京安定医院</p>
+					    <p>擅长：精神疾病药物依从性与复发、精神疾病康复研究 </p>
+					    <a href="javascript:void(0)" onclick="onClickSWT('sy-myzr-lq-zxzx ');return false;">在线咨询</a>
+					    <a href="javascript:void(0)" onclick="onClickSWT('sy-myzr-lq-ljqy');return false;">立即抢约</a>
+					  </div>
+					</li>
+				</ul>
+					<ul>
+					<li>
+					  <div class="texta">
+					    <img src="/images/ljrb.png" width="530" height="500"/>
+					    <p><span>王建勤</span>/主任</p>
+					    <p>30年经验</p>
+					    <p>北大六院</p>
+					    <p>擅长：抑郁、焦虑、精神分裂、躯体形式障碍、精神疾病合并躯体疾病等疾病的诊断和治疗。</p>
+					    <a href="javascript:void(0)" onclick="onClickSWT('sy-myzr-ljr-zxzx ');return false;">在线咨询</a>
+					    <a href="javascript:void(0)" onclick="onClickSWT('sy-myzr-ljr-ljqy');return false;">立即抢约</a>
+					  </div>
+					</li>
+				</ul>
+				<ul>
+					<li>
+					  <div class="texta">
+					    <img src="/images/fxdb.png" width="530" height="500"/>
+					    <p><span>范肖冬</span>/院长</p>
+					    <p>30年经验</p>
+					    <p>北大六院副院长</p>
+					    <p>擅长：失眠、抑郁症、强迫症、头痛、神经衰弱诊疗等。</p>
+					    <a href="javascript:void(0)" onclick="onClickSWT('sy-myzr-fxd-zxzx ');return false;">在线咨询</a>
+					    <a href="javascript:void(0)" onclick="onClickSWT('sy-myzr-fxd-ljqy');return false;">立即抢约</a>
+					  </div>
+					</li>
+				</ul>
+				<ul>
+					<li>
+					  <div class="texta">
+					    <img src="/images/wjxb.png" width="530" height="500"/>
+					    <p><span>王锦霞</span>/教授</p>
+					    <p>30年经验</p>
+					    <p>北大六院教授</p>
+					    <p>擅长：失眠、精神障碍、精神分裂、癫痫、焦虑症诊疗等。</p>
+					    <a href="javascript:void(0)" onclick="onClickSWT('sy-myzr-wjx-zxzx ');return false;">在线咨询</a>
+					    <a href="javascript:void(0)" onclick="onClickSWT('sy-myzr-wjx-ljqy');return false;">立即抢约</a>
+					  </div>
+					</li>
+				</ul>
+				<ul>
+					<li>
+					   <div class="texta">
+					    <img src="/images/hchb.png" width="530" height="500"/>
+					    <p><span>姚付新</span>/主任</p>
+					    <p>20年经验医生</p>
+					    <p>北京回龙观精神科主任</p>
+					    <p>擅长：睡眠障碍、抑郁症、精神分裂、焦虑症等精神疾病，以及心理咨询与心理治疗。</p>
+					    <a href="javascript:void(0)" onclick="onClickSWT('sy-myzr-hch-zxzx ');return false;">在线咨询</a>
+					    <a href="javascript:void(0)" onclick="onClickSWT('sy-myzr-hch-ljqy');return false;">立即抢约</a>
+					  </div>
+					</li>
+				</ul>
+			</div>
+		</div>-->
+		<a href="javascript:void(0)" onclick="onClickSWT('sy-zzzx-smbz');return false;" style="display: block;width: 530px;height: 785px;margin-top: 46px;"><img src="/images/zhuanjia.jpg" width="530" height="785"/></a>
+	   
+<script>
+	jQuery(".slideTxtBox").slide({autoPlay:true,trigger:"click"});
+</script>
+ </div> 
+	
+
+<!-----------------------------医患交流------------------------------------->
+   <div class="communicate">
+   	 <img src="/images/title_05.png" width="336" height="55"/>
+   	  <div class="sp">
+<!--	 	<div class="videobox"><img src="/images/sp1.jpg" alt="" vsrc="/sp/1.mp4"></div><p>抑郁症在哪家医院能治好？</p>-->
+		<div class="videobox"><img src="/images/sp2.jpg" alt="" vsrc="/sp/2.mp4"></div><p>精神分裂症怎么才能治愈？</p>
+<!--		<div class="videobox"><img src="/images/sp3.jpg" alt="" vsrc="/sp/3.mp4"></div><p>精神障碍的危害有哪些？</p>-->
+		<div class="videobox"><img src="/images/sp4.jpg" alt="" vsrc="/sp/4.mp4"></div><p>如何治疗精神分裂症、抑郁症</p>
+	 </div>
+   	 <!---------------------文字滚动------------------------>
+	<!-- <div class="txtMarquee-top">
+	   <div class="hd2">
+	     <a class="next"></a>
+		 <a class="prev"></a>
+	   </div>
+	   <div class="bd2">
+	     <div class="tempWrap">
+	       <ul class="infoList">
+		     <li class="clone">
+				<div style="margin-left:48px;">
+				   <img src="/images/dg_01.png" width="70" height="70" style="margin-bottom: -39px;
+				   margin-left: -36.5px;"/>
+				   <span style="font-size: 18px;color: #515151;">吴**</span>
+				   <div class="p1"><p>紧张不安，唉声叹气，呼吸急促，心跳快，我很担心，已经持续的有一段时间了，希望可以尽快好，医院能治好我的病吗？</p></div>
+				</div>
+               <div style="margin-left: 154px;position: relative;z-index: 99">
+               <span style="font-size: 18px;color: #515151;position: absolute;left: 235px;">杨医生</span>
+	           <img src="/images/dg_02.png" width="70" height="70" style="margin-bottom: -42px;margin-left: 293px;"/>
+	           <div class="p2"><p>您好！可以完全治好的，通过描述，您应该患上了焦虑症，会导致出现头晕、心悸、难集中精力等，对身体危害极大，建议尽快进行科学治疗。</p></div></div>
+		     </li>
+			 <li>
+               <div style="margin-left:48px;">
+	           <img src="/images/dg_03.png" width="70" height="70" style="margin-bottom: -39px;margin-left: -36.5px;"/>
+	           <span style="font-size: 18px;color: #515151;">陈**</span>
+				 <div class="p1"><p>我妈妈53岁了，最近失眠特别严重，吃安眠药不管什么用了，睡不好，多梦，黑眼圈特别严重，而且感觉很累的样子，这可以治愈吗？</p></div>
+			   </div>
+               <div style="margin-left: 154px;position: relative;z-index: 99">
+                <span style="font-size: 18px;color: #515151;position: absolute;left: 235px;">杨医生</span>
+	            <img src="/images/dg_02.png" width="70" height="70" style="margin-bottom: -42px;margin-left: 293px;"/>
+	           <div class="p2"><p>您好！失眠是可以治愈的，长期失眠会使人衰老过快，身心疲惫等，建议多调理、请勿乱用安眠药，应到院进行科学的诊疗，祝早日康复！</p></div></div>
+		     </li>	
+		      <li>
+               <div style="margin-left:48px;">
+	           <img src="/images/dg_04.png" width="70" height="70" style="margin-bottom: -39px;margin-left: -36.5px;"/>
+	           <span style="font-size: 18px;color: #515151;">王**</span>
+				  <div class="p1"><p>最近老是有幻听现象，感觉有人在我耳边说话，感觉有人叫我但是问周围人却说没叫我，我这是怎么了，是精神问题吗？</p></div>
+				</div>
+                <div style="margin-left: 154px;position: relative;z-index: 99">
+                <span style="font-size: 18px;color: #515151;position: absolute;left: 235px;">杨医生</span>
+	            <img src="/images/dg_02.png" width="70" height="70" style="margin-bottom: -42px;margin-left: 293px;"/>
+	           <div class="p2"><p>您好！幻听幻觉是精神分裂的主要症状，听您描述您的认知能力还在，是轻微精神分裂的征兆，为了避免对身体带来危害，建议尽早合理治疗。</p></div></div>
+		     </li>	
+		      <li>
+               <div style="margin-left:48px;">
+	           <img src="/images/dg_05.png" width="70" height="70" style="margin-bottom: -39px;margin-left: -36.5px;"/>
+	           <span style="font-size: 18px;color: #515151;">李**</span>
+				  <div class="p1"><p>感觉自己生活过的乱七八糟，每天头重头晕，发懒不想动，屋子里一片狼藉，情绪非常糟糕， 感觉生活真没意思，我是怎么了？</p></div>
+				</div>
+                <div style="margin-left: 154px;position: relative;z-index: 99">
+                <span style="font-size: 18px;color: #515151;position: absolute;left: 235px;">杨医生</span>
+	            <img src="/images/dg_02.png" width="70" height="70" style="margin-bottom: -42px;margin-left: 293px;"/>
+	           <div class="p2"><p>您好！情绪低落、&ldquo;忧、懒、呆、变、虑&rdquo;是抑郁症的表现，看到您的描述，是中度抑郁症，应该尽快到正规医院做科学的确诊和全面治疗。</p></div></div>
+		     </li>	
+		      <li>
+               <div style="margin-left:48px;">
+	           <img src="/images/dg_06.png" width="70" height="70" style="margin-bottom: -39px;margin-left: -36.5px;"/>
+	           <span style="font-size: 18px;color: #515151;">黄**</span>
+				  <div class="p1"><p>很累，脑袋晕，头痛，紧张不安，夜里睡不着觉，易醒，醒来不好入睡，很烦躁，上班时，感觉身心疲惫，胃口不好吃饭没胃口，这能治吗？</p></div>
+				</div>
+                <div style="margin-left: 154px;position: relative;z-index: 99">
+                <span style="font-size: 18px;color: #515151;position: absolute;left: 235px;">杨医生</span>
+	            <img src="/images/dg_02.png" width="70" height="70" style="margin-bottom: -42px;margin-left: 293px;"/>
+	           <div class="p2"><p>您好！头痛，失眠多梦，紧张不安等是焦虑的表现，焦虑症是属于精神疾病的一种，会给身心健康和工作生活带来严重影响，建议尽早诊治。</p></div></div>
+		     </li>	
+		
+		   </ul>
+		</div>
+		</div>
+	</div>-->
+<script>
+	jQuery(".txtMarquee-top").slide({
+		mainCell:".bd2 ul",
+		autoPlay:true,
+		effect:"topMarquee",
+		vis:5,
+		interTime:50,
+	});
+</script>	
+ </div>
+ 
+<!------------------------------底部切换----------------------------------->
+<div class="footchange">
+	<div class="slideTxtBox2">
+			<div class="hd hd3">
+				<ul><li class="on">来院路线</li></ul>
+			</div>
+			<div style="float: left;width: 1100px;height: 2px;background-color: #ae724d;margin-bottom: 20px;
+			margin-top: 10px;"></div>
+			<div class="bd bd3">
+				<ul style="display: block;">
+					<li><img src="/images/map.png" width="470" height="155"/></li>
+					<li><p style="width: 330px;height: 100px;line-height: 36px;padding: 15px;font-size: 18px;
+					margin-top: 10px;">医院地址：南京市鼓楼区幕府西路118号接诊时间：8:00~17:00（节假日不休息）医院电话：400-8941-120</p></li>
+					<li style="margin-left: 68px;"><a href="#"><div style="width: 140px;height: 150px;
+				    background-color: #7f4125;border-radius: 8px;display: table-cell;vertical-align: middle;
+				    text-align: center;"><img src="/images/icon.png" width="54" height="72" style="margin-bottom: 20px;"/><p style="font-size: 20px; color: #f6f2ed; margin-top: -10px;">回到顶部</p></div></a></li>
+				</ul>
+				
+			</div>
+		</div>
+<script>
+	jQuery(".slideTxtBox2").slide({trigger:"click"});
+</script>
+</div>
+
+<div style="width: 1100px;height: 50px;"></div>
+</div>
+
+<script language="javascript" src="/swt/swtnew.js"></script>
+<script type="text/javascript" src="https://vip3-kf9.kuaishang.cn/bs/ks.j?cI=183673&fI=63304" charset="utf-8"></script>
+</body>
+</html>

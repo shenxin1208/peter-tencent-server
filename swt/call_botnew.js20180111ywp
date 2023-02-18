@@ -1,0 +1,17 @@
+document.writeln("<style>");
+document.writeln(".bottom_call{color:#442008;height:70px;width:100%;z-index:999;left:0;bottom:0px;top:auto;position:fixed;_position:absolute;}");
+document.writeln(".bottom_call01{height:70px;width:1440px;margin:0 auto;background:url(/swt/bot_call.png) no-repeat;position:relative;}");
+document.writeln(".bottom_call02{width:300px;height:50px;position:absolute;top:28px;right:250px;border:0px #fff solid;overflow:hidden;}");
+document.writeln("  .tel1{width:370px;height:50px;position:absolute;bottom:0;left:15%;}")
+document.writeln("</style>");
+document.writeln("<div class=\"bottom_call\">");
+document.writeln("<div class=\"bottom_call01 publictel_imgbg\">");
+document.writeln("  <a href=\"javascript:void(0)\" onclick=\"onClickSWT(\'pf-db-zjzxzx\');return false;\"><div class='tel1'></div></a>")
+document.writeln("<div class=\"bottom_call02\">");
+document.write('<input id="bottominput" style="width:180px;height:30px;float:left" placeholder="请输入您的电话号码"><img id="bottombtn" src="/swt/db_iphone.jpg" style=" float: left;margin-left: 3px;cursor: pointer;margin-top:3px;">');
+document.writeln("</div>");
+document.writeln("</div>");
+document.writeln("</div>");
+document.getElementById("bottombtn").onclick = function () { 
+lxb.call(document.getElementById("bottominput"));
+};
